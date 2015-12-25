@@ -8,3 +8,6 @@ And : QUEUE .. don't forget.
 
 In iterative approach there will be need to navigate from left to right sub treee. And queue will help u a lot.
 
+How to find all paths ??
+
+Ans: Recursive way is better.
