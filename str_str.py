@@ -15,6 +15,10 @@ Implemented here is KMP algorithm
 
 Look at this to understand what I did: [Simple steps are given]
 https://web.stanford.edu/class/cs97si/10-string-algorithms.pdf
+
+Steps:
+1. compute the pi array  - contains the longest suffix index (something like that - it is well explained in the standford PDF)
+2. Use it to find the pattern. 
 '''
 class Solution(object):
     def strStr(self, haystack, needle):
