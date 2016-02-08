@@ -5,7 +5,7 @@ If the question ask you to pick set of strings from the given string.
 GO FOR GREEDY. This might help u. [If there are less restrictions]
 
 Approaches:
-Get freq dictinary
+1. Get freq dictinary
 The last index of the character might help you. [check remove duplicates letters python file]
 sort the indexes of the string by characters in ascending order
 
@@ -16,4 +16,7 @@ a d a e f a c d b c d  e
 
 pos = [0,2,5,8,6,9,1,10,3,11] arranged in asc of string.
 
-Try to use hash set ... This might help you. 
+2. Try to use hash set ... This might help you. 
+
+3. Sort the string if needed.
+And store the index as value and each_word/char as key and form a dict. [used: grouping anagrams]
