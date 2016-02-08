@@ -1,0 +1,19 @@
+String poblems:
+
+If the question ask you to pick set of strings from the given string.
+
+GO FOR GREEDY. This might help u. [If there are less restrictions]
+
+Approaches:
+Get freq dictinary
+The last index of the character might help you. [check remove duplicates letters python file]
+sort the indexes of the string by characters in ascending order
+
+example:
+
+a d a e f a c d b c d  e
+0 1 2 3 4 5 6 7 8 9 10 11
+
+pos = [0,2,5,8,6,9,1,10,3,11] arranged in asc of string.
+
+Try to use hash set ... This might help you. 
