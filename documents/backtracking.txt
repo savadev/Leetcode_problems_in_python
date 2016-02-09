@@ -1,0 +1,17 @@
+Backtracking is a refinement of the brute-force approach, which systematically searches for a solutions to a problem among all available
+options.
+
+In which scenarios it can used ?
+When there is a set of options available at each step, and we must choose one from these. After a choice is made, there is a new set of
+options for the next step. This procedure is repeated over and over until we reach a final state.
+
+How to visualize it?
+Tree structure. 
+
+What can I done?
+Dynamic programming if the nodes of the tree are same or same nodes are going to be visited everytime.
+
+Problems bases on this:
+
+https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+
