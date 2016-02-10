@@ -20,3 +20,16 @@ pos = [0,2,5,8,6,9,1,10,3,11] arranged in asc of string.
 
 3. Sort the string if needed.
 And store the index as value and each_word/char as key and form a dict. [used: grouping anagrams]
+
+
+===========================
+When you want to fix one character in the string and do operations on rest of the characters then 
+use recursion inside the loop
+
+while start <= end:
+  # do operation
+  fix the character and send the rest of the charactersd
+  recursice_call(array, start_+1, end) // now start index is fixed
+  # do operation
+  
+Example: http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
