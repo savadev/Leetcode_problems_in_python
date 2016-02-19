@@ -33,3 +33,14 @@ while start <= end:
   # do operation
   
 Example: http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+===================================
+
+Try to convert a word into a unique number if there is a problem where more number of words are to be processed.
+
+How to convert each word in a list to a unique number?
+Example: abcxyz 11100000000000000000000111 [26 size a - 0, b - 1, z - 25]
+the above binary to decimal would give a unique decimal value
+
+This will help a lot
+
+================================================================
