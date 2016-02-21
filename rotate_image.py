@@ -43,7 +43,30 @@ first & last are 1 2  [The the first and last are 1 and 2]
      left is 2 1
      bottom is 2 2
      right is 1 2
-     
+
+Approach 2 : 
+
+(1) write your matrix on a paper. 
+(2) flip (not rotate) the paper upside down. (reverse)  It means the rows are swapped. [Not the columns]
+[1,2]         [3,4]
+[3,4] becomes [1,2]
+(3) flip again, but this time bottom edge to the right. (swap) It means change the positions that aren't i != j and leave i == j as it.
+[3,4]
+[1,2] here 3 and 2 are left and not swapped. because 3 - 0,0  abd 2 - 1,1 (i == j) but 2 and 4 should be swapped.
+
+code:
+#include <algorithm>
+
+class Solution {
+public:
+    void rotate(vector<vector<int> > &matrix) 
+    {
+        reverse(matrix.begin(), matrix.end());
+        for (unsigned i = 0; i < matrix.size(); ++i)
+            for (unsigned j = i+1; j < matrix[i].size(); ++j)
+                swap (matrix[i][j], matrix[j][i]);
+    }
+};
 '''
 class Solution(object):
     def rotate(self, matrix):
