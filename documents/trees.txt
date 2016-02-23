@@ -11,3 +11,8 @@ In iterative approach there will be need to navigate from left to right sub tree
 How to find all paths ??
 
 Ans: Recursive way is better.
+
+
+When you have process the tree (if the tree is in tree format or tree is given as string format) , use a variable to keep track of the slots of the tree to validate it.
+
+To understand more: look at the pythn file verify preorder serilaization
