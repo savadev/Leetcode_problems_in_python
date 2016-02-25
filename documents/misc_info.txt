@@ -2,3 +2,5 @@ What is inferred from trees ?
 
 From an undirected graph with no cycle, a tree can be constructed with minimum height or the root of a tree (minimum height tree) can be found by removing the leaves level by level. Stop removing the leaves when the number of nodes remaining is 2 or less than 2.
 
+Nice link:
+http://gurmeet.net/puzzles/duplicate-integer/ [If you don't understand ask Satya Dev aka Immanueal Raj kumar]
