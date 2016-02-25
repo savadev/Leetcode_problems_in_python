@@ -4,3 +4,7 @@ From an undirected graph with no cycle, a tree can be constructed with minimum h
 
 Nice link:
 http://gurmeet.net/puzzles/duplicate-integer/ [If you don't understand ask Satya Dev aka Immanueal Raj kumar]
+
+Simple algorithms to find duplicates in an array of size m = n+1 where the integers are in range [1,n] which means 
+only one element is repeated
+http://link.springer.com/chapter/10.1007%2F978-3-540-72504-6_11#page-4
