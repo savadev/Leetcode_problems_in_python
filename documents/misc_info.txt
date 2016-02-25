@@ -8,3 +8,7 @@ http://gurmeet.net/puzzles/duplicate-integer/ [If you don't understand ask Satya
 Simple algorithms to find duplicates in an array of size m = n+1 where the integers are in range [1,n] which means 
 only one element is repeated
 http://link.springer.com/chapter/10.1007%2F978-3-540-72504-6_11#page-4
+
+
+A good site for Exploring best practices in software architecture, object oriented and API design, coding
+http://dzmitryhuba.blogspot.com/
