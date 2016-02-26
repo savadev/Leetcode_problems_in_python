@@ -11,6 +11,13 @@ Find the mid point of the matrix. rmid, cmid
 
 Now the target can be top left or top right or bottom left or bottom right with respect to mid point of the matrix
 So 4 independent If conditions has to be written and also check if rmid+1 and cmid+1 are within the lenth of matrix.
+
+NOTE: This is the worst algorithm ever written in this world !!! 
+
+why ? You are searching the whole matrix by going top left, top right , bottom left, bottom right which is equal to O(n^2)
+This is can be done using two for loops instead of having 4 recursion calls.
+
+IRK aka satya dev embarassed me by finding this on Feb 25th at 8 PM
 '''
 class Solution(object):
     def find_target(self, matrix, rlow, rhigh, clow, chigh, target):
